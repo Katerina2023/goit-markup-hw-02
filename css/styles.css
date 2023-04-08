@@ -1,5 +1,12 @@
+:root {
+  --prime-font: "Roboto", sens-serif;
+  --second-font: "Raleway", sens-serif;
+  --accent-color: #434455;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--accent-color);
 }
 
 .list {
