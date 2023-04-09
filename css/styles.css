@@ -1,10 +1,8 @@
 :root {
   --main-title-color: #ffffff;
   --second-title-color: #4d5ae5;
-  --color-span: #2e2f42;
-  --color-adress: #434455;
-  --fotor-color: #e7e9fc;
-  --products-color: #404bbf;
+  --main-color-adress: #434455;
+  --second-color-adress: #404bbf;
 }
 
 body {
@@ -52,28 +50,22 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-address {
+.header-address : :hover,
+.header-address : :focus {
+  color: var(--second-color-adress);
 }
 .header-mail {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-.header-mail :hover,
-.header-mail :focus {
-  color: var(--color-adress);
-}
 
-.header-phone {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.header-phone :hover,
-.header-phone :focus {
-  color: var(--color-adress);
+  .header-phone {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
 }
 
 /*Hero*/
