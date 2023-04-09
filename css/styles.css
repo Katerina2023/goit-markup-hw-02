@@ -15,8 +15,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--color-slate)
-  background-color: var(#ffffff)
+  color: #434455;
+  background-color: #ffffff;
 }
 
 .list {
