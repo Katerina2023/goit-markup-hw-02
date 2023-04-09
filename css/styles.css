@@ -1,7 +1,10 @@
 :root {
-  --prime-font: "Roboto", sens-serif;
-  --second-font: "Raleway", sens-serif;
-  --accent-color: #434455;
+  --main-title-color: #ffffff;
+  --second-title-color: #4d5ae5;
+  --color-span: #2e2f42;
+  --color-adress: #434455;
+  --fotor-color: #e7e9fc;
+  --products-color: #404bbf;
 }
 
 body {
@@ -59,7 +62,7 @@ body {
 }
 .header-mail :hover,
 .header-mail :focus {
-  color: #404bbf;
+  color: var(--color-adress);
 }
 
 .header-phone {
@@ -70,7 +73,7 @@ body {
 }
 .header-phone :hover,
 .header-phone :focus {
-  color: #404bbf;
+  color: var(--color-adress);
 }
 
 /*Hero*/
