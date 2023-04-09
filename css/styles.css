@@ -146,18 +146,19 @@ body {
 
 /*--Section2--*/
 
-.section2 {
+.about {
 }
-.section2-title {
+.about-title {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
 }
-.section2-list {
+.about-list {
 }
-.section2-item {
+.about-item {
 }
 
 /*--Section3--*/
