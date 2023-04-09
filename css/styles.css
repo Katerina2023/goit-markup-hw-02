@@ -48,6 +48,7 @@ body {
   color: #2e2f42;
 }
 .header-list {
+  font-style: normal;
 }
 .header-item {
 }
@@ -60,7 +61,7 @@ body {
 }
 .header-address :hover,
 .header-address :focus {
-  color: var(--color-ocean);
+  color: #404bbf;
 }
 .header-mail {
   font-size: 16px;
@@ -74,6 +75,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.link:hover,
+.link:focus {
+  color: #404bbf;
 }
 
 /*Hero*/
