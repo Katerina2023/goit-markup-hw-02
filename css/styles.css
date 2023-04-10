@@ -117,8 +117,9 @@ body {
   background-color: var(--color-button);
   cursor: pointer;
 }
-.hero-btn :hover,
-.hero-btn :focus {
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--color-body);
   background-color: var(--color-hover);
 }
 
