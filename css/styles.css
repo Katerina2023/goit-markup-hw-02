@@ -49,7 +49,7 @@ body {
   color: #4d5ae5;
 }
 .logo-word {
-  color: var(--color-grey);
+  color: var(--color-navy-blue);
 }
 .header-list {
 }
@@ -111,7 +111,7 @@ body {
 }
 .hero-btn :hover,
 .hero-btn :focus {
-  background-color: #404bbf;
+  background-color: var(--color-ocean);
 }
 
 /* Advantages */
@@ -245,8 +245,8 @@ body {
 
 .portfolio-btn :hover,
 .portfolio-btn :focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--color-white);
+  background-color: var(--color-ocean);
 }
 
 .portfolio-title {
