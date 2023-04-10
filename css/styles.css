@@ -49,7 +49,7 @@ body {
   color: #4d5ae5;
 }
 .logo-word {
-  color: #2e2f42;
+  color: var(--color-navy-blue);
 }
 .header-list {
 }
