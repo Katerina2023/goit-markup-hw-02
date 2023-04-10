@@ -211,7 +211,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--color-cloud);
+  color: var(--color-button);
 }
 
 .footer-text {
