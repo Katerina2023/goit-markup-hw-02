@@ -122,29 +122,29 @@ body {
   background-color: #404bbf;
 }
 
-/*--Section1--*/
+/*--advantages--*/
 
-.section-advantages {
+.advantages {
 }
-.section-advantages-title {
+.advantages-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section-advantages-list {
+.advantages-list {
 }
-.section-advantages-item {
+.advantages-item {
 }
-.ssection-advantages-text {
+.advantages-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-/*--Section2--*/
+/*--about--*/
 
 .about {
 }
@@ -161,11 +161,12 @@ body {
 .about-item {
 }
 
-/*--Section3--*/
+/*--Team--*/
 
-.section3 {
+.team {
+  background-color: #f4f4fd;
 }
-.section3-title-top {
+.team-title-top {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -173,18 +174,20 @@ body {
   color: #2e2f42;
 }
 
-.section3-list {
+.team-list {
 }
-.section3-item {
+.team-item {
+  background-color: #ffffff;
 }
-.section3-title-bottom {
+.team-title-bottom {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #2e2f42;
 }
-.section3-text {
+.team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -193,9 +196,10 @@ body {
 
 /*--Footer--*/
 .footer {
+  background-color: var(--color-grey);
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -204,11 +208,11 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--color-iris);
 }
 
 .logo-word {
-  color: #2e2f42;
+  color: #f4f4fd;
 }
 
 .footer-text {
