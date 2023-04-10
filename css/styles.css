@@ -76,7 +76,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-footer);
+  color: var(--color-address);
 }
 
 .address {
@@ -125,8 +125,6 @@ body {
 
 /* Advantages */
 
-.advantages {
-}
 .advantages-title {
   font-weight: 500;
   font-size: 20px;
@@ -247,8 +245,8 @@ body {
 
 .portfolio-btn :hover,
 .portfolio-btn :focus {
-  color: var(--color-body);
-  background-color: var(--color-hover);
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .portfolio-title {
