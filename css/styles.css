@@ -203,6 +203,10 @@ body {
   background-color: var(--color-footer);
 }
 
+.footer .logo-studio {
+  color: var(--color-cloud);
+}
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
