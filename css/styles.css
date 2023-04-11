@@ -22,14 +22,8 @@ body {
 .list {
   list-style: none;
 }
-.link,
-.logo-web,
-.logo-studio {
+.link {
   text-decoration: none;
-}
-.link:hover,
-.link:focus {
-  color: var(--color-hover);
 }
 
 /* Header */
@@ -62,6 +56,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-footer);
+}
+.header-link {
+  color: var(--color-hover);
 }
 .header-list {
 }
