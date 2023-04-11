@@ -22,12 +22,14 @@ body {
 .list {
   list-style: none;
 }
-.link {
+.link,
+.logo-web,
+.logo-studio {
   text-decoration: none;
 }
 .link:hover,
 .link:focus {
-  color: #404bbf;
+  color: var(--color-hover);
 }
 
 /* Header */
@@ -40,7 +42,6 @@ body {
 }
 .logo-web {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -53,7 +54,6 @@ body {
 
 .logo-studio {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -63,16 +63,12 @@ body {
   text-transform: uppercase;
   color: var(--color-footer);
 }
-.header-link {
-  color: var(--color-hover);
-}
 .header-list {
 }
 .header-item {
 }
 .header-link {
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -84,7 +80,7 @@ body {
 }
 
 .header-address {
-  font-weight: 800;
+  font-weight: 400;
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
@@ -106,7 +102,6 @@ body {
 }
 .hero-btn {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -243,8 +238,8 @@ body {
 }
 
 .portfolio-btn:is(:hover, :focus) {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--color-body);
+  background-color: var(--color-hover);
 }
 
 .portfolio-title {
