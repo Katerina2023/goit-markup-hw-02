@@ -25,10 +25,6 @@ body {
 .link {
   text-decoration: none;
 }
-.link:hover,
-.link:focus {
-  color: var(--color-hover);
-}
 
 /* Header */
 
@@ -64,6 +60,10 @@ body {
 .header-link {
   color: var(--color-hover);
 }
+
+.header-link.link:is(:hover, :focus) {
+  color: var(--color-hover);
+}
 .header-list {
 }
 .header-item {
@@ -87,6 +87,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-address);
+}
+
+.header-address.link:is(:hover, :focus) {
+  color: var(--color-hover);
 }
 
 /* Hero */
@@ -220,7 +224,8 @@ body {
   text-decoration: none;
 }
 
-.main-btn {
+.main-link-portfolio .link:is(:hover, :focus) {
+  color: var(--color-hover);
 }
 
 .portfolio-btn {
